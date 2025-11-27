@@ -17,3 +17,7 @@ Exemplos reais : Sistemas de configuração : Desktop central que pode permiter 
  Oferecer um ponto global e controlado de acesso; O ponto global oferecido permite que o codigo que depende do recurso compartilhe a  mesma instancia , pois melhora a eficiencia e a segurança do codigo .
 
 O singleton é muito util em varios ambientes  como o ambiente multiTheread , que a instancia unica pode ser criada por varias threads ao mesmo tempo , apresentando varias instancias diferentes . desde já esse poblema é resolvido com a palavra chave lock que garanti que apenas uma thread possa criar a instancia inicial , evitando problemas de concorrencia , ainda mais a implementacão pode ser otimizada com a inicialização preguiçosa onde a instancia é criada apenas quando é realmente necessaria , minimizando o impacto no desempenho.
+
+Diagrama UML :
+<img width="519" height="408" alt="image" src="https://github.com/user-attachments/assets/b8e2b632-c8c3-428d-a57d-c3939801b803" />
+
